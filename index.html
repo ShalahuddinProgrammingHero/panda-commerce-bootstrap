@@ -13,34 +13,36 @@
   <body>
       <!-- Header Section Start -->
       <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                  <img src="images/logo.png" alt="">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
-                  </li>
-              </div>
-            </div>
-          </nav>
+        <section class="navbar my-5">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                      <img src="images/logo.png" alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#shoes">Shoes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#backpack">Backpack</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
+                      </li>
+                  </div>
+                </div>
+              </nav>
+        </section>
           
           <!-- Banner Area Start -->
-          <section class="container">
+          <section class="container my-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -117,7 +119,7 @@
       <!-- Catagories Area End -->
 
       <!--Shoes Card Area Start -->
-      <section class="container">
+      <section class="container my-5" id="shoes">
         <h2>Shoes</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -164,7 +166,7 @@
       <!--Shoes Card Area End -->
 
       <!--Bag Card Area Start -->
-      <section class="container">
+      <section class="container my-5" id="backpack">
         <h2>Bags</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -210,9 +212,26 @@
       </section>
       <!--Bag Card Area End -->
 
+      <!-- Subscribe Area Start -->
+      <section style="height: 300px;" class="container my-5 bg-info d-flex align-items-center justify-content-center" id="subscribe">
+          <div>
+            <h1>LET'S STAY IN TOUCH</h1>
+            <p>Get updates on sales, specials and more</p>
+            <input type="text" placeholder="Enter your email">
+            <br>
+            <button class="btn btn-warning">Submit</button>
+          </div>
+      </section>
+      <!-- Subscribe Area End -->
       
 
       <!-- Main Section End -->
+
+      <!-- Footer Section Start -->
+      <footer class="my-5 text-center">
+          <p><small>©2021. Panda Commerce. All rights reserved. Shalahuddin, Dhaka.</small></p>
+      </footer>
+      <!-- Footer Section End -->
 
 
 
